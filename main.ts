@@ -1,5 +1,4 @@
-export class Test { 
-function initialize() {
-    Array.from({ length: this.size }, () => this.worker());
-  }
+const UiTemplatesHomescreen: FunctionComponent<Props> = ({ uiTemplates }) => { 
+	const [isDialogOpen, setDialogOpen] = useState(false); 
+	const revalidator = useRevalidator();
 }
