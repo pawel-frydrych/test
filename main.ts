@@ -1,4 +1,4 @@
-const UiTemplatesHomescreen: FunctionComponent<Props> = ({ uiTemplates }) => { 
-	const [isDialogOpen, setDialogOpen] = useState(false); 
-	const revalidator = useRevalidator();
-}
+ const [isDialogOpen, setDialogOpen] = useState([isDialogOpen, setDialogOpen]);
+   const revalidator = useRevalidator();
+
+   // Now the state is destructured correctly into value + setter pair.
