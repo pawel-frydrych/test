@@ -1,4 +1,6 @@
-const UiTemplatesHomescreen: FunctionComponent<Props> = ({ uiTemplates }) => { 
-	const [isDialogOpen, setDialogOpen] = useState(false); 
-	const revalidator = useRevalidator();
+```javascript
+const UiTemplatesHomescreen: FunctionComponent<Props> = ({ uiTemplates }) => {
+    const [isDialogOpen, setIsDialogOpen] = useState(false); 
+    const revalidator = useRevalidator();
 }
+```
